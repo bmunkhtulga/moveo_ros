@@ -1,21 +1,21 @@
-# moveo_ros
-ROS packages that can be used to plan and execute motion trajectories for the BCN3D Moveo robotic arm in simulation and real-life.
-### [Video Demo Here!](https://youtu.be/2RcTTqs17O8)
+# RBX1-ROS
+ROS packages that can be used to plan and execute motion trajectories for the Roboteurs RBX1 Remix robotic arm in simulation and real-life.
+### [Video Demo Here!](https://youtu.be/bk7O4-ZAk6Q)
 
 - **_New Feature_: Object-Specific Pick and Place** (With an ordinary webcam, Tensorflow, OpenCV, and ROS, you can 'pick and place' (or sort) objects that are detected in real-time)
-	- **[Video Demo](https://youtu.be/kkUbyFa2MWc)**
-	- **[How to Use](https://github.com/jesseweisberg/moveo_ros/tree/master/moveo_moveit/scripts)**
+	- **[Video Demo](https://youtu.be/xdFcplHd1Gc)**
+	- **[How to Use](https://github.com/bmunkhtulga/moveo_ros/tree/master/moveo_moveit/scripts)**
 
 
 
 ## How to Use:
 
-### Getting the BCN3D Simulation Working with Motion Planning
+### Getting the RBX1 Simulation Working with Motion Planning
 ![moveit_screenshot.png](/moveit_screenshot.png)
 
 1. Make sure you have ROS installed correctly with a functioning workspace-- I used ROS Kinetic on Ubuntu 16.04 (if you have a different distro, you may need to change some things).  I currently have 'moveo_ros' in the 'src' folder of my catkin workspace.
 
-2. To plan and execute trajectories for the Moveo in simulation (RVIZ with Moveit plugin), execute the following terminal command:
+2. To plan and execute trajectories for the RBX1 in simulation (RVIZ with Moveit plugin), execute the following terminal command:
 	```
 	roslaunch moveo_moveit_config demo.launch
 	```
